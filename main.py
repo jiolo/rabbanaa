@@ -20,7 +20,7 @@ if response.status_code == 200:
 
     print(data)
 
-    with open("data.json", mode="w") as data_file:
+    with open("sample_data.txt", mode="w") as data_file:
         data_file.write(str(data))
 
 
